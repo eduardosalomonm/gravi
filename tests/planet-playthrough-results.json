@@ -1,0 +1,501 @@
+{
+  "date": "2026-10-18",
+  "runtime_commit": "b4e1e8b190b448fed4f3640798f25ac054429520",
+  "method": "Isolated local browser; real createPlanetGame loop and input methods; controlled requestAnimationFrame clock; setup positions only at challenge starts; no direct completion or landing flags. Intermediate GPU draws skipped; final and map frames rendered.",
+  "completed_cases": 30,
+  "browser_errors": [],
+  "characters": [
+    {
+      "character": "gravi",
+      "challenges": [
+        {
+          "id": "flowers",
+          "title": "El claro que respira",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "petals",
+          "title": "El sendero de p\u00e9talos",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "sky",
+          "title": "Pelda\u00f1os al cielo",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "jupiter",
+          "title": "El abrazo de J\u00fapiter",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "lanterns",
+          "title": "La senda de las luci\u00e9rnagas",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "ridge",
+          "title": "Las tres cornisas",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "reflection",
+          "title": "El reflejo imposible",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "river",
+          "title": "El r\u00edo que sube",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "wind",
+          "title": "La escalera del viento",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "journey",
+          "title": "El \u00faltimo florecer",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        }
+      ],
+      "physics": {
+        "jumps": [
+          {
+            "name": "Luna",
+            "gravity": 1.62,
+            "apex": 15.094250000000265,
+            "expected": 15.123456790123456,
+            "footGap": -0.0081999999999951
+          },
+          {
+            "name": "Marte",
+            "gravity": 3.71,
+            "apex": 6.574638194444418,
+            "expected": 6.60377358490566,
+            "footGap": -0.008200000000009311
+          },
+          {
+            "name": "Tierra",
+            "gravity": 9.81,
+            "apex": 2.4681104166666685,
+            "expected": 2.497451580020387,
+            "footGap": -0.0081999999999951
+          },
+          {
+            "name": "J\u00fapiter",
+            "gravity": 24.79,
+            "apex": 0.9590243055555518,
+            "expected": 0.9883017345703913,
+            "footGap": -0.008200000000002206
+          },
+          {
+            "name": "Cero",
+            "gravity": 0,
+            "flight": true,
+            "return": true
+          }
+        ],
+        "collisions": [
+          {
+            "kind": "fast Jupiter landing",
+            "id": "forest-rock-0",
+            "footGap": -0.008199999999987995
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "sky-1",
+            "footGap": -0.008199999999987995
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "wind-pillar-0",
+            "footGap": -0.0081999999999951
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "forest-tree-0-canopy-0",
+            "footGap": -0.0081999999999951
+          },
+          {
+            "kind": "side collision and escape",
+            "id": "forest-rock-0",
+            "closest": 1.02015692343465
+          },
+          {
+            "kind": "side collision and escape",
+            "id": "forest-tree-0",
+            "closest": 0.8002939041601353
+          },
+          {
+            "kind": "canopy underside",
+            "apex": 1.1990125000000162
+          }
+        ],
+        "returnPreservesProgress": true
+      },
+      "landing_events": 26,
+      "saved_sakuras": [
+        "flowers",
+        "petals",
+        "sky",
+        "jupiter",
+        "lanterns",
+        "ridge",
+        "reflection",
+        "river",
+        "wind",
+        "journey"
+      ],
+      "reload_and_map": true
+    },
+    {
+      "character": "mimo",
+      "challenges": [
+        {
+          "id": "flowers",
+          "title": "El claro que respira",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "petals",
+          "title": "El sendero de p\u00e9talos",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "sky",
+          "title": "Pelda\u00f1os al cielo",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "jupiter",
+          "title": "El abrazo de J\u00fapiter",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "lanterns",
+          "title": "La senda de las luci\u00e9rnagas",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "ridge",
+          "title": "Las tres cornisas",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "reflection",
+          "title": "El reflejo imposible",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "river",
+          "title": "El r\u00edo que sube",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "wind",
+          "title": "La escalera del viento",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "journey",
+          "title": "El \u00faltimo florecer",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        }
+      ],
+      "physics": {
+        "jumps": [
+          {
+            "name": "Luna",
+            "gravity": 1.62,
+            "apex": 15.094250000000265,
+            "expected": 15.123456790123456,
+            "footGap": -0.008200000000002206
+          },
+          {
+            "name": "Marte",
+            "gravity": 3.71,
+            "apex": 6.574638194444418,
+            "expected": 6.60377358490566,
+            "footGap": -0.008200000000009311
+          },
+          {
+            "name": "Tierra",
+            "gravity": 9.81,
+            "apex": 2.4681104166666685,
+            "expected": 2.497451580020387,
+            "footGap": -0.0081999999999951
+          },
+          {
+            "name": "J\u00fapiter",
+            "gravity": 24.79,
+            "apex": 0.9590243055555518,
+            "expected": 0.9883017345703913,
+            "footGap": -0.008200000000002206
+          },
+          {
+            "name": "Cero",
+            "gravity": 0,
+            "flight": true,
+            "return": true
+          }
+        ],
+        "collisions": [
+          {
+            "kind": "fast Jupiter landing",
+            "id": "forest-rock-0",
+            "footGap": -0.008199999999987995
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "sky-1",
+            "footGap": -0.008199999999987995
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "wind-pillar-0",
+            "footGap": -0.0081999999999951
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "forest-tree-0-canopy-0",
+            "footGap": -0.0081999999999951
+          },
+          {
+            "kind": "side collision and escape",
+            "id": "forest-rock-0",
+            "closest": 1.02015692343465
+          },
+          {
+            "kind": "side collision and escape",
+            "id": "forest-tree-0",
+            "closest": 0.8002939041601353
+          },
+          {
+            "kind": "canopy underside",
+            "apex": 1.1990125000000162
+          }
+        ],
+        "returnPreservesProgress": true
+      },
+      "landing_events": 26,
+      "saved_sakuras": [
+        "flowers",
+        "petals",
+        "sky",
+        "jupiter",
+        "lanterns",
+        "ridge",
+        "reflection",
+        "river",
+        "wind",
+        "journey"
+      ],
+      "reload_and_map": true
+    },
+    {
+      "character": "pipo",
+      "challenges": [
+        {
+          "id": "flowers",
+          "title": "El claro que respira",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "petals",
+          "title": "El sendero de p\u00e9talos",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "sky",
+          "title": "Pelda\u00f1os al cielo",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "jupiter",
+          "title": "El abrazo de J\u00fapiter",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "lanterns",
+          "title": "La senda de las luci\u00e9rnagas",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "ridge",
+          "title": "Las tres cornisas",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "reflection",
+          "title": "El reflejo imposible",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "river",
+          "title": "El r\u00edo que sube",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "wind",
+          "title": "La escalera del viento",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        },
+        {
+          "id": "journey",
+          "title": "El \u00faltimo florecer",
+          "completed": true,
+          "reward": true,
+          "persisted": true
+        }
+      ],
+      "physics": {
+        "jumps": [
+          {
+            "name": "Luna",
+            "gravity": 1.62,
+            "apex": 15.09430416666693,
+            "expected": 15.123456790123456,
+            "footGap": -0.0081999999999951
+          },
+          {
+            "name": "Marte",
+            "gravity": 3.71,
+            "apex": 6.574638194444418,
+            "expected": 6.60377358490566,
+            "footGap": -0.008200000000009311
+          },
+          {
+            "name": "Tierra",
+            "gravity": 9.81,
+            "apex": 2.4681104166666685,
+            "expected": 2.497451580020387,
+            "footGap": -0.0081999999999951
+          },
+          {
+            "name": "J\u00fapiter",
+            "gravity": 24.79,
+            "apex": 0.9590243055555518,
+            "expected": 0.9883017345703913,
+            "footGap": -0.008200000000002206
+          },
+          {
+            "name": "Cero",
+            "gravity": 0,
+            "flight": true,
+            "return": true
+          }
+        ],
+        "collisions": [
+          {
+            "kind": "fast Jupiter landing",
+            "id": "forest-rock-0",
+            "footGap": -0.008199999999987995
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "sky-1",
+            "footGap": -0.008199999999987995
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "wind-pillar-0",
+            "footGap": -0.0081999999999951
+          },
+          {
+            "kind": "fast Jupiter landing",
+            "id": "forest-tree-0-canopy-0",
+            "footGap": -0.0081999999999951
+          },
+          {
+            "kind": "side collision and escape",
+            "id": "forest-rock-0",
+            "closest": 1.02015692343465
+          },
+          {
+            "kind": "side collision and escape",
+            "id": "forest-tree-0",
+            "closest": 0.8002939041601353
+          },
+          {
+            "kind": "canopy underside",
+            "apex": 1.1990125000000162
+          }
+        ],
+        "returnPreservesProgress": true
+      },
+      "landing_events": 26,
+      "saved_sakuras": [
+        "flowers",
+        "petals",
+        "sky",
+        "jupiter",
+        "lanterns",
+        "ridge",
+        "reflection",
+        "river",
+        "wind",
+        "journey"
+      ],
+      "reload_and_map": true
+    }
+  ]
+}

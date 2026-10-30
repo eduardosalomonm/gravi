@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "method": "Local Chrome with emulated mobile touch and CDP multitouch; actual TouchControls and game loop; controlled animation clock; no public save access",
+  "results": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "analogueStrength": 0.15030826634321579,
+      "multitouchJumpAndCamera": true,
+      "cancelMenuPauseResize": true,
+      "pinchAndRetainedAngle": true,
+      "lunarHintAndGravityDescent": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "analogueStrength": 0.15030826634321579,
+      "multitouchJumpAndCamera": true,
+      "cancelMenuPauseResize": true,
+      "pinchAndRetainedAngle": true,
+      "lunarHintAndGravityDescent": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "analogueStrength": 0.19886403428490124,
+      "multitouchJumpAndCamera": true,
+      "cancelMenuPauseResize": true,
+      "pinchAndRetainedAngle": true,
+      "lunarHintAndGravityDescent": true
+    }
+  ],
+  "errors": []
+}

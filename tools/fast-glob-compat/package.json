@@ -1,0 +1,10 @@
+{
+  "name": "@gravi/fast-glob-compat",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.cjs",
+  "exports": "./index.cjs",
+  "dependencies": {
+    "tinyglobby": "0.2.17"
+  }
+}
