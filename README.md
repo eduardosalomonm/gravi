@@ -4,6 +4,8 @@ A browser-based 3D exploration game where changing gravity opens new routes and 
 
 [Play the game](https://gravi.eduardosalomonm.chatgpt.site/) · [Case study](https://eduardosalomon.eilvi.com/projects/gravi) · [Portfolio](https://eduardosalomon.eilvi.com/)
 
+> **Public source edition.** Gravi was developed in a private repository between September and October 2026 (16 commits). This repository is a curated snapshot of that work, without original working assets.
+
 ![Gravi gameplay screenshot](https://raw.githubusercontent.com/eduardosalomonm/eduardosalomonm/main/assets/gravi.webp)
 
 ## Engineering focus
